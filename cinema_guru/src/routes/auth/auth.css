@@ -1,0 +1,63 @@
+.auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1C1C1C;
+}
+
+.authentication {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.authentication ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.authentication ul li {
+    background-color: #E31C25;
+    cursor: pointer;
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.input {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.input input {
+    width: inherit;
+}
+
+.active {
+    background-color: #BB000E !important;
+    transition: background-color 0.3s;
+}
+
+.authentication h1 {
+    font-size: large;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: block;
+    margin-top: 30px;
+    float: right;
+}
